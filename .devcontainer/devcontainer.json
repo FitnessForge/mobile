@@ -10,7 +10,9 @@
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [8081],
+  "forwardPorts": [
+    8081
+  ],
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "npm install",
   // Configure tool-specific properties.
@@ -26,7 +28,7 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "christian-kohler.path-intellisense",
-        "firsttris.vscode-jest-runner",
+        "Orta.vscode-jest",
         "YoavBls.pretty-ts-errors",
         "usernamehw.errorlens"
       ]
