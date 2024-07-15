@@ -14,7 +14,7 @@ test('given empty GroceryShoppingList, user can add an item to it', () => {
   expect(bananaElements).toHaveLength(1); // expect 'banana' to be on the list
 });
 
-test('amogus', () => {
-  const { getByText } = render(<Text>amogus</Text>);
-  expect(getByText('amogus')).toBeDefined();
+test('test', () => {
+  const { getByText } = render(<Text>test</Text>);
+  expect(getByText('test')).toBeDefined();
 });
