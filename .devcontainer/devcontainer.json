@@ -3,7 +3,7 @@
 {
   "name": "Fitness Forge - Mobile",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm",
   "features": {
     "ghcr.io/devcontainers-contrib/features/expo-cli:1": {}
   },
@@ -26,7 +26,7 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "christian-kohler.path-intellisense",
-        "firsttris.vscode-jest-runner",
+        "Orta.vscode-jest",
         "YoavBls.pretty-ts-errors",
         "usernamehw.errorlens"
       ]
